@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <title>Vẻ Đẹp Việt Nam - Danh Lam Thắng Cảnh</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+    
+    body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #fdfcf0; }
+    
+   
+    .navbar { margin-bottom: 0; border-radius: 0; background-color: #b2cefe; border: none; }
+    .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a { color: #fff; font-weight: bold; }
+
+ 
+    footer { background-color: #e3f2fd; padding: 30px; margin-top: 50px; }
+    
+ 
+    .carousel-inner img {
+      width: 100%;
+      height: 500px !important; 
+      object-fit: cover;
+    }
+    .carousel-caption { background: rgba(0, 0, 0, 0.3); border-radius: 15px; padding: 20px; }
+
+  
+    .place-card {
+      background: white;
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+      transition: 0.3s;
+    }
+    .place-card:hover { transform: scale(1.02); }
+    .place-card img { border-radius: 10px; height: 180px; width: 100%; object-fit: cover; }
+
+
+    @media (max-width: 600px) { .carousel-caption { display: none; } }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">VIETNAM</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Trang Chủ</a></li>
+       
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng Nhập</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+  <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://i.pinimg.com/1200x/db/45/0d/db450d5e0624eccb982bbfe35f025089.jpg" alt="Vịnh Hạ Long">
+        <div class="carousel-caption">
+          <h3>Vịnh Hạ Long</h3>
+          <p>Kỳ quan thiên nhiên thế giới tại Việt Nam.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="https://i.pinimg.com/736x/47/a2/6c/47a26c84d2e1fdfc5520706842bacbd1.jpg" alt="Hội An">
+        <div class="carousel-caption">
+        <h3>Phố Cổ Hội An</h3>
+          <p>Vẻ đẹp hoài cổ lung linh dưới ánh đèn lồng.</p>
+        </div>      
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Trước</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Sau</span>
+    </a>
+</div>
+  
+<div class="container text-center">    
+  <h2 style="margin: 40px 0; color: #7e57c2;">Điểm Đến Nổi Bật</h2>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="place-card">
+        <img src="https://i.pinimg.com/1200x/ce/7c/e8/ce7ce8c5fafb83d30e818bda9386438d.jpg" alt="Đà Nẵng">
+        <h4>Đà Nẵng</h4>
+        <p>Thành phố của những cây cầu và bờ biển xanh ngắt.</p>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="place-card">
+        <img src="https://i.pinimg.com/1200x/6d/73/a7/6d73a7905cfbe8e0edb8ce375dfa30ac.jpg" alt="Tràng An">
+        <h4>Tràng An - Ninh Bình</h4>
+        <p>Di sản văn hóa và thiên nhiên thế giới kỳ ảo.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="place-card">
+        <img src="https://i.pinimg.com/736x/0b/4a/25/0b4a25271d9bd0dbe48a9c8bc3e6b15f.jpg" alt="Phú Quốc">
+        <h4>Đảo Ngọc Phú Quốc</h4>
+        <p>Thiên đường nghỉ dưỡng với những bãi cát trắng mịn.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p><b2026 Vẻ Đẹp Việt Nam.</b> Khám phá dải đất hình chữ S.</p>
+  <p>Liên hệ: nguyenhoangngan721@gmail.com</p>
+</footer>
+</body>
+</html>
